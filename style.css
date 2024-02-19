@@ -72,7 +72,18 @@ body {
   transform: scaleX(-1);
 }
 
-@media only screen and (max-width: 661px) {
+.home h1 {
+  font-size: 150px;
+  color: maroon;
+  font-family: cursive;
+}
+
+.home h2 {
+  font-size: 100px;
+  font-family: cursive;
+}
+
+@media only screen and (max-width: 600px) {
   .home {
     flex-direction: column;
     background-color: #fafafa;
@@ -82,10 +93,14 @@ body {
   }
 
   .home h1 {
-    justify-content: center;
-    text-align: center;
-    width: 30%;
-    margin-bottom: 10px;
+    font-size: 40px;
+    color: maroon;
+    font-family: cursive;
+  }
+
+  .home h2 {
+    font-size: 40px;
+    font-family: cursive;
   }
 
   .home .me-content {
@@ -96,17 +111,6 @@ body {
   .me-content:hover {
     transform: unset;
   }
-}
-
-.home h1 {
-  font-size: 150px;
-  color: maroon;
-  font-family: cursive;
-}
-
-.home h2 {
-  font-size: 100px;
-  font-family: cursive;
 }
 
 footer {
