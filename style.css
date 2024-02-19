@@ -72,7 +72,7 @@ body {
   transform: scaleX(-1);
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 661px) {
   .home {
     flex-direction: column;
     background-color: #fafafa;
@@ -82,7 +82,10 @@ body {
   }
 
   .home h1 {
+    justify-content: center;
     text-align: center;
+    width: 30%;
+    margin-bottom: 10px;
   }
 
   .home .me-content {
@@ -436,4 +439,15 @@ input[type="button"].fcf-btn-block {
 
 .contact-section .mobile-title {
   display: none;
+}
+
+@media (max-width: 991px) {
+  .sidebar {
+    background-color: rgb(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+  }
+}
+
+.nav-item {
+  font-size: 25px;
 }
